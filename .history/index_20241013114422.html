@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Manipulation</title>
+</head>
+<body>
+    <!-- <p id="one">hello</p>
+    <h1 id = "title">Dom Manipulation</h1> -->
+    <input id = "num1" value="12">
+    <input  id = "num2" value="23">
+    <button onclick="add()">Add</button>
+    <p id="result">Result</p>
+    <script>
+        // Select the P tag with the id.
+        // print content inside the p tag using innerHTML
+        // paragraph = document.getElementById('one')
+        // paragraph.textContent = 'Zoro'
+        // console.log(paragraph.textContent);
+
+        // Select the h1 tag with the id.
+        // print content inside the h1 tag
+        // heading = document.getElementById('title')
+        // heading.textContent = 'Hello'
+        // console.log(heading.textContent);
+
+        //select the input tag with the id
+        var box1 = document.getElementById('num1')
+        var box2 = document.getElementById('num2')
+        var result = document.getElementById('result')
+        var box1Value = Number(box1.value) 
+        var box2Value = Number(box2.value)
+        var total = box1Value + box2Value
+        function add(box1Value, box2Value){
+            
+            result.textContent = total
+        }
+        
+    </script>
+</body>
+</html>

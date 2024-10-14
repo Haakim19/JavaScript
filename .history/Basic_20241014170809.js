@@ -97,4 +97,3 @@
 
 //! random number genaration
 var a = Math.random()
-console.log(a)

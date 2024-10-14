@@ -1,0 +1,1 @@
+var gusesNumber = document.getElementById("gusesNumber");

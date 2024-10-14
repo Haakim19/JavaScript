@@ -1,0 +1,43 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question - 01</title>
+</head>
+<body>
+    <input id="inputBox" onkeyup="output()">
+    <h1 id="result"></h1>
+    <script>
+        var input = document.getElementById('inputBox');
+        var result = document.getElementById('result');
+        function output(){
+            result.textContent = input.value;
+        }
+    </script>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question - 02</title>
+</head>
+<body>
+    <button onclick="update()">Add</button>
+    <div id="result"></div>
+    <script>
+        var div = document.getElementById('result');
+        function update(){
+            var h1 = document.createElement('h1');
+            h1.textContent = 'Hello World';
+            div.append (h1);
+            
+        }
+    </script>    
+</body>
+</html>

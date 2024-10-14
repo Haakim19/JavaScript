@@ -4,13 +4,13 @@
         // paragraph.textContent = 'Zoro'
         // console.log(paragraph.textContent);
 
-// Select the h1 tag with the id.
+        // Select the h1 tag with the id.
         // print content inside the h1 tag
         // heading = document.getElementById('title')
         // heading.textContent = 'Hello'
         // console.log(heading.textContent);
 
-//select the input tag with the id
+        //select the input tag with the id
         var box1 = document.getElementById('num1')
         var box2 = document.getElementById('num2')
         var result = document.getElementById('result')
@@ -26,3 +26,4 @@
             box2.value = ''
             result.innerText = 'Result'
         }
+        window.alert('Hello')

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question - 04</title>
+</head>
+<body>
+    <h1 id="Result">Name</h1>
+    <button onclick="update(event)">Zoro</button>
+    <button onclick="update(event)">Ahamed</button>
+    <button onclick="update(event)">Luffy</button>
+    <script>
+        var h1 = document.getElementById('Result');
+        function update(event){
+            h1.textContent = event.target.textContent;
+        }
+    </script>
+</body>
+</html>

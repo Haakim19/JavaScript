@@ -1,0 +1,14 @@
+.keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+button{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: none;
+    font-size: 3rem;
+    background-color: hsl(0, 0%, 30%);
+    font-weight: bold;
+    cursor: pointer;
+}

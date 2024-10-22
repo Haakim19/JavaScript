@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="Main.css">
 </head>
 <body>
-    <div id="calculator">
+    <div class="calculator">
         <input id= "display" readonly>
-        <div id="keys">
+        <div class="keys">
             <button onclick="appentToDisplay('+')" class="operator-btn">+</button>
             <button onclick="appentToDisplay('7')">7</button>
             <button onclick="appentToDisplay('8')">8</button>
@@ -24,11 +24,11 @@
             <button onclick="appentToDisplay('3')">3</button>
             <button onclick="appentToDisplay('/')" class="operator-btn">/</button>
             <button onclick="appentToDisplay('0')">0</button>
-            <button onclick="appentToDisplay('.')" >.</button>
-            <button onclick="calculate()" >=</button>
-            <button onclick="clearDisplay()" class="operator-btn">C</button>
+            <button onclick="appentToDisplay('.')" class="operator-btn">.</button>
+            <button onclick="calculate()" class="operator-btn">=</button>
+            <button onclick="clear" class="operator-btn">C</button>
         </div>
     </div>
-<script src="Main.js"></script>
+
 </body>
 </html>

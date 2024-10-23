@@ -6,7 +6,7 @@ body{
     height: 100vh;
     background-color: hsl(0,0%, 5%);  
     background-image: url();
-    /* animation:scale 1s infinite;  */
+    animation:scale 1s infinite; 
 }
 #calculate{
     font-family:sans-serif;

@@ -5,8 +5,7 @@ body{
     align-items: center;
     height: 100vh;
     background-color: hsl(0,0%, 5%);  
-    background-image: url();
-    /* animation:scale 1s infinite;  */
+    background-image: url(); 
 }
 #calculate{
     font-family:sans-serif;
@@ -78,8 +77,6 @@ button{
     background-color: hsl(0, 0%, 70%);
     cursor: pointer;
     transition: background-color 0.5s;
-    /* animation: scale 5s infinite; */
-    /* animation-iteration-count: infinite; */
 }
 
 button:hover{
@@ -102,15 +99,13 @@ button:active{
     background-color: hsl(189, 84%, 75%);
 }
 @keyframes scale{
-    0%{ background-color: hsl(0, 100%, 50%); }
-    25%{ background-color: hsl(0, 100%, 40%); }
-    50%{
-        background-color: hsl(0, 100%, 30%);
+    0%{
+        transform: scale(1);
     }
-    75%{
-        background-color: hsl(0, 100%, 20%);
+    50%{
+        transform: scale(1.1);
     }
     100%{
-        background-color: hsl(0, 100%, 10%);
+        transform: scale(1);
     }
 }

@@ -4,19 +4,15 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: hsl(0,0%, 5%);   
-}
-#calculate{
-    font-family:sans-serif;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: hsl(0,0%, 5%);
 }
 #calculator-normal{
+    font-family:sans-serif;
     background-color: hsl(0, 0%, 15%);
     border-radius: 15px;
     max-width: 500px;
     overflow: hidden;
 }
-
 #display1{
     width: 100%;
     padding: 20px;
@@ -31,7 +27,7 @@ body{
 #display2{
     width: 100%;
     padding: 20px;
-    font-size: 3rem;
+    font-size: 5rem;
     border: none;
     text-align: left;
     padding-right: -15px;
@@ -39,43 +35,30 @@ body{
     background-color: hsl(0, 0%, 20%);
     
 }
-#keys{
+#keys-normal{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     padding: 25px;
 }
-/* #keys-normal{
-    width: 80px;
-    height: 60px;
-    color: white;
-    border-radius: 50px;
-    border: none;
-    font-size: 3rem;
-    background-color: hsl(0, 0%, 30%);
-    font-weight: bold;
-    cursor: pointer;
-} */
-/* button{
-    width: 80px;
-    height: 60px;
-    color: white;
-    border-radius: 50px;
-    border: none;
-    font-size: 3rem;
-    background-color: hsl(0, 0%, 30%);
-    font-weight: bold;
-    cursor: pointer;
-} */
+#keys-sientific{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 25px;
+
+}
+
 button{
-    width: 100%;
-    padding: 15px;
-    font-size: 18px;
+    width: 80px;
+    height: 60px;
+    color: white;
+    /* border-radius: 50px; */
     border: none;
-    border-radius: 4px;
-    background-color: hsl(0, 0%, 70%);
+    font-size: 3rem;
+    background-color: hsl(0, 0%, 30%);
+    font-weight: bold;
     cursor: pointer;
-    transition: background-color 0.5s;
 }
 
 button:hover{
@@ -87,7 +70,7 @@ button:active{
 }
 
 .operator-btn{
-    background-color: hsl(189, 84%, 45%);
+    background-color: hsl(189, 84%, 55%);
 }
 
 .operator-btn:hover{

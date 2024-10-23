@@ -37,25 +37,25 @@ function appentToDisplay(value) {
         console.log("PI");
     } else if (value === "e()") {
         display2.value += Math.E;
-        // console.log("e");
+        console.log("e");
     } else if (value === "log10()") {
         display2.value += Math.log10();
-        // console.log("Log10");
+        console.log("Log10");
     } else if (value === "sqrt()") {
         display2.value += Math.sqrt();
-        // console.log("π");
+        console.log("π");
     } else if (value === "sin()") {
         display2.value += Math.sin();
-        // console.log("π");
+        console.log("π");
     } else if (value === "cos()") {
         display2.value += Math.cos();
-        // console.log("π");
+        console.log("π");
     } else if (value === "tan()") {
         display2.value += Math.tan();
-        // console.log("π");
+        console.log("π");
     } else if (value === "ln()") {
         display2.value += Math.log();
-        // console.log("π");
+        console.log("π");
     } else {
         display2.value += value;
     }

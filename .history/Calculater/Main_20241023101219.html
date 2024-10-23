@@ -12,7 +12,7 @@
             <input id= "display1" readonly>
             <input id="display2" readonly>
             <div id="keys">
-                <button onclick="clearDisplay()" class="operator-btn">C</button>
+                <button onclick="appentToDisplay('+')" class="operator-btn">+</button>
                 <button onclick="appentToDisplay('7')">7</button>
                 <button onclick="appentToDisplay('8')">8</button>
                 <button onclick="appentToDisplay('9')">9</button>
@@ -20,27 +20,22 @@
                 <button onclick="appentToDisplay('4')">4</button>
                 <button onclick="appentToDisplay('5')">5</button>
                 <button onclick="appentToDisplay('6')">6</button>
-                <button onclick="appentToDisplay('+')" class="operator-btn">+</button>
+                <button onclick="appentToDisplay('*')" class="operator-btn">*</button>
                 <button onclick="appentToDisplay('1')">1</button>
                 <button onclick="appentToDisplay('2')">2</button>
                 <button onclick="appentToDisplay('3')">3</button>
-                <button onclick="appentToDisplay('*')" class="operator-btn">*</button>
+                <button onclick="appentToDisplay('/')" class="operator-btn">/</button>
                 <button onclick="appentToDisplay('0')">0</button>
                 <button onclick="appentToDisplay('.')" >.</button>
-                
-                <button onclick="appentToDisplay('log10()')">log</button>
-                <button onclick="appentToDisplay('sqrt')" class="operator-btn">√</button>
-                <button onclick="appentToDisplay('/')">/</button>
-                <button onclick="appendToDisplay('PI')">π</button>
-                <button onclick="appentToDisplay('e()')">e</button>           
-                <button onclick="appendToDisplay('root')" class="operator-btn">^</button>
-                <button onclick="appentToDisplay('sin')">sin</button>
-                <button onclick="appentToDisplay('cos')">cos</button>
-                <button onclick="appentToDisplay('tan')">tan</button>
-                <button onclick="calculate()">=</button>
-                <button onclick="appentToDisplay('ln')">ln</button>           
-                <button onclick="appentToDisplay(value)"><span>&#40;</span></button>           
-                <button onclick="appentToDisplay(value)"><span>&#41;</span></button>           
+                <button onclick="calculate()" >=</button>
+                <button onclick="clearDisplay()" class="operator-btn">C</button>
+                <button onclick="appentToDisplay('Math.sin()')">sin</button>
+                <button onclick="appentToDisplay('Math.cos()')">cos</button>
+                <button onclick="appentToDisplay('Math.tan()')">tan</button>
+                <button onclick="appentToDisplay('Math.sqrt()')">Inv</button>
+                <button onclick="appentToDisplay('log')">log</button>
+                <button onclick="appentToDisplay('sin')">x<sup>y</sup></button>
+                <button onclick="appentToDisplay('e')">e</button>
             </div>
         </div>
         

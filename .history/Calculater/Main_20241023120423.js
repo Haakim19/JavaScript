@@ -32,32 +32,24 @@
 function appentToDisplay(value) {
     const display1 = document.getElementById("display1");
     const display2 = document.getElementById("display2");
-    if (value === "π") {
-        display2.value += Math.PI;
-        console.log("PI");
-    } else if (value === "e()") {
-        display2.value += Math.E;
-        // console.log("e");
-    } else if (value === "log10()") {
-        display2.value += Math.log10();
-        // console.log("Log10");
-    } else if (value === "sqrt()") {
-        display2.value += Math.sqrt();
-        // console.log("π");
-    } else if (value === "sin()") {
-        display2.value += Math.sin();
-        // console.log("π");
-    } else if (value === "cos()") {
-        display2.value += Math.cos();
-        // console.log("π");
-    } else if (value === "tan()") {
-        display2.value += Math.tan();
-        // console.log("π");
-    } else if (value === "ln()") {
-        display2.value += Math.log();
-        // console.log("π");
+    if (value === "PI()") {
+        display1.value += Math.PI;
+    } else if (value === "e") {
+        display1.value += Math.E;
+    } else if (value === "log10") {
+        display1.value += "Math.log10(";
+    } else if (value === "sqrt") {
+        display1.value += "Math.sqrt(";
+    } else if (value === "sin") {
+        display1.value += "Math.sin(";
+    } else if (value === "cos") {
+        display1.value += "Math.cos(";
+    } else if (value === "tan") {
+        display1.value += "Math.tan(";
+    } else if (value === "log") {
+        display1.value += "Math.log(";
     } else {
-        display2.value += value;
+        display1.value += value;
     }
 }
 

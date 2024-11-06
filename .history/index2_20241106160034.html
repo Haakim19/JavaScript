@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript-lesson</title>
+</head>
+<body>
+    <h1>JS Lesson</h1>
+    <input type="text" id="input">
+    <button type="submit" id="submit" onclick="submitValue()">submit</button>
+    <h1 id="result"></h1>
+    <script>
+        var input = document.getElementById('input');
+        var submit = document.getElementById('submit');
+        function submitValue(){
+            var value = input.value;
+            document.write(value);
+        }
+        // alert('Hello World');
+        // console.log('Hello World');
+        // document.write('Hello World');
+        // var sub1 = 70;
+        // var sub2 = 80;
+        // var sub3 = 90;
+        // var total = sub1 + sub2 + sub3;
+        // var avg = total / 3;
+        // document.write('<br>');
+        // document.write('Total: ' + total);
+        // document.write('<br>');
+        // document.write('Average: ' + avg);
+        // for (let i = 0; i < 11; i++) {
+        //     for (let j = 0 ; j < i; j++){
+        //         document.write('*');
+        //     }
+        //     document.write('<br>');
+        // }
+        // for (let i = 11; i > 0; i--) {
+        //     for (let j = 0 ; j < i; j++){
+        //         document.write('*');
+        //     }
+        //     document.write('<br>');
+        // }
+        // window.alert("Hello World");
+        // var test = document.getElementsByTagName('h1')[0].innerHTML = 'JavaScript Lesson Updated';
+        // console.log(test);
+        // window.confirm('Are you sure?');
+        // var name = window.prompt('Enter your name');
+        // while (name != "null"){
+        //     window.alert('You have not entered your name');
+        //     window.prompt('Enter your name');
+        // }
+        //     document.write('Hello ' + name);
+        // document.write(name);
+        // while (name === null || name.trim() === "") {
+        // window.alert('You have not entered your name');
+        // name = window.prompt('Enter your name');
+        // }
+    </script>
+</body>
+</html>
